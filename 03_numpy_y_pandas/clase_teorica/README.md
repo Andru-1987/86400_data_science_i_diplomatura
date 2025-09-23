@@ -5,8 +5,6 @@
 
 ### Objetivos de la Clase
 
-Al finalizar esta clase, los estudiantes serán capaces de:
-
 1. Conocer las estructuras de datos en **Pandas**.
 2. Comprender el uso de Pandas para la manipulación de grandes volúmenes de datos.
 3. Conocer las estructuras de datos y su implementación en **Python**.
