@@ -2,10 +2,10 @@
 
 [Presentacion](https://docs.google.com/presentation/d/1wwQ64aeuK1jEK95uZXtsHYvTILAT4P15/edit?slide=id.g374242ea485_0_1163#slide=id.g374242ea485_0_1163)
 
-## Objetivos
+## Objetivos 
 
-* Conocer estructuras de datos en Pandas: `Series` y `DataFrame`.
-* Aprender a seleccionar, agrupar y agregar datos.
+* _Repaso_: Conocer estructuras de datos en Pandas: `Series` y `DataFrame`.
+* Aggregacion: Aprender a seleccionar, agrupar y agregar datos.
 * Trabajar con strings y fechas.
 * Generar visualizaciones básicas en Python con **Matplotlib** y **Seaborn**.
 
