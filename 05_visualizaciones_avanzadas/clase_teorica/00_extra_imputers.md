@@ -27,3 +27,5 @@
 - **Acción**: Métodos avanzados (Heckman, pattern mixture models)
 - **Riesgo**: Alto sesgo potencial
 
+---
+_Un detalle importante a tener en cuenta cuando hacemos imputaciones, tenemos que tener en cuenta la correlacion con otras columnas_
