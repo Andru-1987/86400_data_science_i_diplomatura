@@ -32,6 +32,62 @@ Proceso general de prueba de hipótesis:
 
 El **p-valor** representa la probabilidad de observar resultados tan extremos como los obtenidos si H₀ fuera cierta.
 
+### Ejemplo:
+
+Supongamos que tienes una **caja de caramelos**. La mayoría son rojos, pero algunos podrían ser verdes. Tú **crees** que **la mitad son rojos y la otra mitad verdes**.
+
+* La **hipótesis nula (H₀)** es como decir:
+
+> "No hay nada especial, la caja tiene la mitad rojos y la mitad verdes".
+
+* La **hipótesis alternativa (H₁)** es como decir:
+
+> "¡Creo que no es la mitad y mitad! Tal vez hay más rojos que verdes".
+
+---
+
+### Ahora hacemos un experimento:
+
+* Sacas 10 caramelos al azar y cuentas cuántos son rojos.
+* Digamos que sacas 9 rojos y 1 verde.
+
+Eso parece diferente de **la mitad y mitad**, ¿verdad?
+
+---
+
+### El **p-value** entra aquí:
+
+* El **p-value** nos dice:
+
+> "Si la hipótesis nula fuera cierta (mitad y mitad), ¿qué tan probable sería sacar algo tan extremo como 9 rojos de 10?"
+
+* Si el **p-value es muy pequeño** (por ejemplo, 0.01 o 1%), eso significa:
+
+> "Es muy raro que esto pase si la caja fuera mitad y mitad. Tal vez mi idea de que hay más rojos que verdes es correcta".
+
+* Si el **p-value es grande** (por ejemplo, 0.5 o 50%), eso significa:
+
+> "Ah, sacar 9 rojos de 10 no es tan raro. La hipótesis nula todavía tiene sentido".
+
+---
+
+### Cómo interpretarlo:
+
+| p-value              | Qué significa      | Qué hacemos                                                              |
+| -------------------- | ------------------ | ------------------------------------------------------------------------ |
+| Muy pequeño (< 0.05) | Es raro bajo H₀    | Rechazamos la hipótesis nula, creemos más en H₁                          |
+| Grande (> 0.05)      | No es raro bajo H₀ | No rechazamos la hipótesis nula, seguimos pensando que podría ser verdad |
+
+---
+
+En resumen:
+
+* **Hipótesis nula** = lo que asumimos que es normal o “igual”
+* **Hipótesis alternativa** = lo que creemos que podría ser diferente
+* **p-value** = la “probabilidad de sorpresa” si la hipótesis nula fuera cierta
+* **Pequeño p-value** → la sorpresa es grande → creemos que H₁ es más probable
+* **Grande p-value** → la sorpresa es pequeña → seguimos creyendo en H₀
+
 ![Ejemplo del p value](p_value.png)
 
 ---
