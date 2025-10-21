@@ -88,7 +88,7 @@ En resumen:
 * **Pequeño p-value** → la sorpresa es grande → creemos que H₁ es más probable
 * **Grande p-value** → la sorpresa es pequeña → seguimos creyendo en H₀
 
-![Ejemplo del p value](p_value.png)
+![Ejemplo del p value](./assets/p_value.png)
 
 ---
 
