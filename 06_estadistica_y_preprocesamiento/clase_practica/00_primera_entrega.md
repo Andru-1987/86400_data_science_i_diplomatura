@@ -2,9 +2,9 @@
 ## Primera Entrega  
 ### Archivo: ProyectoDS_ParteI_Apellido.ipynb
 
----
-
-[DATASET DE EJEMPLO](https://datos.gob.ar/)
+* [Lista de datasets para data science](https://www.kaggle.com/discussions/general/210203)
+* [Segunda lista](https://www.kaggle.com/discussions/general/199837)
+* [Dataset de datos ba](https://datos.gob.ar/)
 
 ## Abstract
 
