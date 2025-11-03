@@ -1,5 +1,6 @@
 # Clase 07 Pracica ML
 
+[PRESENTACION](https://docs.google.com/presentation/d/1Q-D9XF9pfGWliz__2bFKoT7v8q3ey6Fp/edit?slide=id.p50#slide=id.p50)
 
 ### **Parte 1: Resumen y Estructura de la Clase**
 
