@@ -9,6 +9,8 @@
 
 ---
 
+[PRESENTACION](https://docs.google.com/presentation/d/1fgtpP52B4DWpwfyc-WcqReWG7bmDIm0O/edit?slide=id.p1#slide=id.p1)
+
 ### **1. Introducción a Machine Learning (Aprendizaje Automático) (10 min)**
 
 **Teoría:**
@@ -27,7 +29,7 @@ Machine Learning (ML) es una rama de la inteligencia artificial que permite a lo
 
 ---
 
-### **2. Regresión Lineal: Prediciendo Valores Numéricos (20 min)**
+### **2. Regresión Lineal: Prediciendo Valores Numéricos**
 
 **Teoría:**
 La regresión lineal es un algoritmo de Aprendizaje Supervisado utilizado para predecir un valor numérico continuo. Su objetivo es encontrar una relación lineal entre una o más variables independientes (predictoras) y una variable dependiente (objetivo).
@@ -84,7 +86,7 @@ Los modelos matemáticos trabajan con números, no con texto. Para usar variable
 
 ---
 
-### **4. Aprendizaje No Supervisado: Clustering (Agrupamiento) (20 min)**
+### **4. Aprendizaje No Supervisado: Clustering (Agrupamiento)**
 
 **Teoría:**
 El clustering tiene como objetivo encontrar grupos naturales (clústeres) en un conjunto de datos no etiquetados. Los elementos dentro de un mismo clúster son muy similares entre sí, y diferentes a los de otros clústeres.
@@ -115,7 +117,87 @@ El clustering tiene como objetivo encontrar grupos naturales (clústeres) en un 
 
 ---
 
-### **5. Resumen y Próximos Pasos (5 min)**
+## Casos de Uso Reales para Clustering
+
+## **1. Clustering Jerárquico**
+
+### **Bioinformática y Genómica**
+- **Análisis de expresión génica**: Agrupar genes con patrones de expresión similares para identificar funciones biológicas relacionadas
+- **Taxonomía molecular**: Clasificar organismos basándose en similitudes de ADN/proteínas para construir árboles evolutivos
+
+### **Marketing y Segmentación de Mercado**
+- **Segmentación de productos**: Agrupar productos en categorías y subcategorías para optimizar el catálogo de una tienda online
+- **Análisis de marca**: Identificar jerarquías de percepción de marca en estudios de mercado
+
+### **Recursos Humanos**
+- **Estructura organizacional**: Analizar roles y responsabilidades para optimizar la estructura de equipos en empresas
+- **Análisis de habilidades**: Agrupar empleados por competencias para planificación de carrera
+
+---
+
+## **2. K-Means (Clustering No Jerárquico)**
+
+### **E-commerce y Retail**
+- **Segmentación de clientes**: Dividir clientes en grupos como "compradores impulsivos", "cazadores de ofertas", "premium", etc. para personalizar campañas de marketing
+- **Gestión de inventario**: Agrupar productos por patrones de venta para optimizar stock en diferentes ubicaciones
+
+### **Telecomunicaciones**
+- **Detección de patrones de uso**: Segmentar usuarios por consumo de datos, llamadas y SMS para crear planes personalizados
+- **Optimización de red**: Agrupar antenas celulares por carga de tráfico para planificar expansiones
+
+### **Finanzas**
+- **Segmentación de carteras**: Agrupar inversores por perfil de riesgo y horizonte temporal
+- **Análisis de fraude**: Identificar grupos de transacciones normales vs. sospechosas
+
+### **Energía**
+- **Perfiles de consumo eléctrico**: Segmentar hogares por patrones de uso para ofrecer tarifas diferenciadas
+- **Mantenimiento predictivo**: Agrupar turbinas eólicas o paneles solares por patrones de rendimiento
+
+### **Ciencias Sociales**
+- **Análisis de encuestas**: Segmentar población por opiniones políticas, hábitos de consumo o valores culturales
+
+---
+
+## **3. DBSCAN (Clustering Basado en Densidad)**
+
+### **Análisis Geoespacial**
+- **Puntos calientes de crimen**: Identificar zonas de alta densidad delictiva para asignar patrullas policiales
+- **Planificación urbana**: Detectar concentraciones de actividad económica para ubicar servicios públicos
+- **Análisis de tráfico**: Identificar zonas de congestión vehicular en tiempo real
+
+### **Astronomía**
+- **Detección de cúmulos estelares**: Encontrar agrupaciones naturales de estrellas en el espacio
+- **Identificación de galaxias**: Detectar estructuras cósmicas a gran escala
+
+### **Detección de Anomalías**
+- **Ciberseguridad**: Identificar comportamientos normales (clústeres densos) vs. ataques atípicos (outliers)
+- **Monitoreo industrial**: Detectar sensores defectuosos en plantas de manufactura (valores fuera de los clústeres normales)
+- **Fraude financiero**: Identificar transacciones anómalas que no pertenecen a patrones normales
+
+### **Biología y Ecología**
+- **Distribución de especies**: Mapear hábitats naturales de animales basándose en avistamientos GPS
+- **Análisis de movimiento animal**: Identificar áreas de alimentación, descanso y migración
+
+### **Salud Pública**
+- **Brotes epidemiológicos**: Detectar focos de enfermedades infecciosas basándose en casos georreferenciados
+- **Análisis de pacientes**: Identificar grupos de pacientes con síntomas similares, ignorando casos atípicos
+
+### **Análisis de Redes Sociales**
+- **Detección de comunidades**: Encontrar grupos de usuarios altamente conectados en redes sociales
+- **Identificación de bots**: Los bots suelen tener patrones atípicos (outliers) vs. usuarios reales (clústeres densos)
+
+---
+
+## **Comparación de Cuándo Usar Cada Método**
+
+| **Método** | **Mejor para** | **Limitación principal** |
+|------------|----------------|--------------------------|
+| **Jerárquico** | Exploración de datos, visualización de relaciones, conjuntos pequeños | Computacionalmente costoso para grandes volúmenes |
+| **K-Means** | Datos grandes, clústeres esféricos, cuando conoces aproximadamente cuántos grupos esperas | Requiere definir 'k' previamente, sensible a outliers |
+| **DBSCAN** | Clústeres de forma irregular, datos con ruido/outliers, no sabes cuántos grupos hay | Difícil ajustar parámetros (eps, minPts) correctamente |
+---
+
+### **5. Resumen y Próximos Pasos**
 
 Hoy hemos visto los pilares fundamentales del Data Science práctico:
 
