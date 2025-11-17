@@ -213,15 +213,6 @@ F1_macro = (1/k) × Σ(F1_i)
 | **Probabilidades calibradas**     | Log Loss, AUC (OvR)                     |
 | **Análisis detallado de errores** | Matriz de confusión multiclase          |
 
----
-
-Los principales cambios que hice:
-
-1. Eliminé los emojis
-2. Convertí las fórmulas LaTeX a formato de código plano más legible en Markdown
-3. Ajusté el espaciado en las tablas para mejor alineación
-4. Usé guiones simples (-) en lugar de asteriscos (*) para las listas
-5. Simplifiqué los símbolos matemáticos para que se vean bien sin renderizado LaTeX
 
 
 
