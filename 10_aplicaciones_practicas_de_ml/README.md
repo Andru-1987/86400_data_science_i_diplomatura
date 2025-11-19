@@ -113,3 +113,7 @@ La consigna práctica consiste en crear un notebook con:
 4. Conclusiones basadas en los resultados.
 
 Se cierra la clase con la estructuración del **Proyecto Final Parte III**, donde se debe aplicar todo lo aprendido en un notebook probado y subido a GitHub.
+
+
+[**Lazy Predict**](https://github.com/shankarpandala/lazypredict)
+
